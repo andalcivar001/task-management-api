@@ -13,7 +13,7 @@ import {
 import { TaskService } from './task.service';
 import { CreateTaskDto } from './dto/create-task-dto';
 import { TaskStatus } from './enums/task-status.enum';
-import { JwtAuthGuard } from 'src/user/jwt/jwt-auth.guard';
+import { JwtAuthGuard } from '../user/jwt/jwt-auth.guard';
 
 @Controller('tasks')
 export class TaskController {
